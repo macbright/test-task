@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kafu Hi-Fi - Play </title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
+	
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FBEFEE;margin-bottom:30px;">
+  <a class="navbar-brand" href="#">
+    <img src="img/logo.png" width="80" height="" class="d-inline-block align-top" alt="">
+
+ </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedCntent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">How It Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Why Kafu</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#">Testimonials</a>
+      </li>
+		
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Loyalty Program</a>
+      </li>
+    </ul>
+	 <button class="btn btn-vendors" type="">Vendors</button>
+	 <button class="btn btn-login" type="">Login</button>
+
+   
+  </div>
+</nav>
+   
+	  
+	  <div class="row">
+	
+		  <div class="col-lg-3" style="padding:0px">
+		  <label class="lbltab-selected">Cleaning Details</label>
+		  </div>
+		  
+		  <div class="col-lg-3" style="padding:0px">
+		  <label class="lbltab">Schedule</label>
+		  </div>
+		  
+		  <div class="col-lg-3"  style="padding:0px">
+		  <label class="lbltab">Providers</label>
+		  </div>
+		  
+		  <div class="col-lg-3"  style="padding:0px">
+		  <label class="lbltab">Checkout</label>
+		  </div>
+		  
+		  </div>
+
+		  <div class="col-lg-12" style="margin-bottom:40px" >
+		  <span style="padding-left:20px;height:200px">Cleaning Service</span>
+		  <span class="price-orange" style="float:right">$45</span>	  
+			  
+		  </div>
+   
+	 	
+	  <div class="container">
+	  <div class="row">
+	  <div class="col-lg-6">
+		
+		  <h2 style="margin-bottom:30px">Cleaning Details</h2>
+
+		  <label>Type of Cleanings</label>
+		  <button class="btninfo" data-toggle="modal" data-target="#cleaningTypes">?</button>
+		  
+		  <!--modal cleanig tyoes -->
+		  
+		 <div class="modal" id="cleaningTypes" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" >
+      <div class="modal-header">
+        <h5 class="modal-title">Cleaning Types</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+	  <label class="lblpopuptabactive" id="standardTab" onClick="changeTab('standardTab','movingioTab','movingioTab','img/building_1003_standart_cleaning.PNG')">Standard</label>
+	  <label class="lblpopuptab" id="movingioTab" onClick="changeTab('movingioTab','standardTab','deepcleanTab','img/building_1003_moving_in_out_cleaning.PNG')">Moving In/Out</label>
+	  <label class="lblpopuptab"  id="deepcleanTab"  onClick="changeTab('deepcleanTab','standardTab','movingioTab','img/building_1003_deep_cleaning.PNG')">Deep Clean</label>
+	  <img id="imgCleaningTypes" src="img/building_1003_standart_cleaning.PNG" width="100%">
+	  </div>
+     
+    </div>
+  </div>
+</div>
+		 <!--modal cleanig tyoes  end-->  
+		  
+    <div class="d-flex" data-toggle="buttons">
+  <label class="btn  btn-light active" style="border: 0.5px solid #B1B2B3;width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option1" autocomplete="off" checked> Standart
+  </label>
+  <label class="btn btn-light" style="border: 0.5px solid #B1B2B3;;width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option2" autocomplete="off"> Moving In/Out
+  </label>
+  <label class="btn btn-light" style="border: 0.5px solid #B1B2B3;width: 100%;height: 50px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option3" autocomplete="off"> Deep Clean
+  </label>
+</div>
+		  <br>
+		  
+		  	  <label>Cleaning Materials</label>
+		  <button  class="btninfo">?</button>
+		  
+    <div class="d-flex" data-toggle="buttons">
+  <label class="btn  btn-light active" style="border: 0.5px solid #B1B2B3;width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option1" autocomplete="off" checked> Standart
+  </label>
+  <label class="btn btn-light" style="border: 0.5px solid #B1B2B3;width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option2" autocomplete="off"> Eco-friendly
+  </label>
+  <label class="btn btn-light" style="border: 0.5px solid #B1B2B3;width: 100%;height: 50px;line-height: 35px">
+    <input type="radio"  style="display: none" name="options" id="option3" autocomplete="off"> I have my own
+  </label>
+</div>
+		  
+		  <br>
+		  	  
+		   <label>Add-ons</label>
+		  <button  class="btninfo">?</button>
+		  
+    <div class="d-flex" data-toggle="buttons">
+  <label class="btn  btn-light " style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionsss" id="option1" autocomplete="off" checked> Inside Fridge
+  </label>
+  <label class="btn btn-light active" style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionss" id="option2" autocomplete="off"> Inside Cabinets
+  </label>
+  <label class="btn btn-light" style="width: 100%;height: 50px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionssss" id="option3" autocomplete="off"> Inside Oven
+  </label>
+</div>
+		  
+		  
+		  <br>
+		   <label>Any Furry Friends?</label>
+		  
+    <div class="d-flex" data-toggle="buttons">
+  <label class="btn  btn-light " style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionsss" id="option1" autocomplete="off" checked> None
+  </label>
+  <label class="btn btn-light" style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionss" id="option2" autocomplete="off"> Dogs
+  </label>
+  <label class="btn btn-light" style="width: 100%;height: 50px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionssss" id="option3" autocomplete="off"> Cats
+  </label>
+</div>
+		  
+		  <br>
+		  
+		     <label>How Do We Get in?</label>
+		  
+    <div class="d-flex" data-toggle="buttons">
+  <label class="btn  btn-light " style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionsss" id="option1" autocomplete="off" checked> Someone is Home
+  </label>
+  <label class="btn btn-light" style="width: 100%;height: 50px;margin-right: 7px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionss" id="option2" autocomplete="off"> Front Desk
+  </label>
+  <label class="btn btn-light" style="width: 100%;height: 50px;line-height: 35px">
+    <input type="radio"  style="display: none" name="optionssss" id="option3" autocomplete="off"> Hidden Key
+  </label>
+</div>
+		  
+		  <br>
+		  
+		     <label>Anything Else We Should Know?</label>
+		  
+		  <div>
+		  <textarea rows="2" class="tctgeneral" placeholder="e.g., Fresh bed sheers are in the closet on the top shelf; The hidden key is under the doormat, etc.">
+			  </textarea>
+			  
+		  </div>
+			  
+		 
+		  
+		  
+		  
+		  
+	  </div>
+		  
+	<div class="col-lg-6">
+	<img src="img/building_1003.PNG">
+	</div>
+		  
+	  </div>
+		  <br>
+		  <div class="col-md-12" style="margin-bottom: 100px"  align="center">
+		  <button class="btnback">Back</button>
+		  <button class="btnnext">Next</button>
+		  </div>
+	  </div>
+	  
+	  <!--modal start here -->
+	  
+	  
+	  
+	  <script>
+	  
+	  function changeTab(id,id2,id3,src_path) {
+		  
+		  var element = document.getElementById(id).className = "lblpopuptabactive";
+		  var element = document.getElementById(id2).className = "lblpopuptab";
+		  var element = document.getElementById(id3).className = "lblpopuptab";
+		  
+		  var element = document.getElementById("imgCleaningTypes").src = src_path;
+
+
+	  }
+		  
+	  </script>
+	  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

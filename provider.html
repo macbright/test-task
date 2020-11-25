@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kafu Hi-Fi - Play </title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
+	
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FBEFEE;margin-bottom:30px;">
+  <a class="navbar-brand" href="#">
+    <img src="img/logo.png" width="80" height="" class="d-inline-block align-top" alt="">
+
+ </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto float-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#">How It Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Why Kafu</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#">Testimonials</a>
+      </li>
+		
+	  	<li class="nav-item">
+        <a class="nav-link" href="#">Loyalty Program</a>
+      </li>
+			<li class="nav-item">
+        <button class="btn btn-vendors " type="">Vendors</button>
+				<button class="btn btn-login " type="">Login</button>
+    	</li>
+    </ul>
+
+	 
+
+  </div>
+</nav>
+   
+	  
+	<div class="row">
+	
+		  <div class="col-sm-3" style="padding:0px">
+		  <label class="lbltab">Cleaning Details</label>
+		  </div>
+		  
+		  <div class="col-sm-3" style="padding:0px">
+		  <label class="lbltab">Schedule</label>
+		  </div>
+		  
+		  <div class="col-sm-3"  style="padding:0px">
+		  <label class="lbltab-selected">Providers</label>
+		  </div>
+		  
+		  <div class="col-sm-3"  style="padding:0px">
+		  <label class="lbltab">Checkout</label>
+		  </div>
+		  
+		</div>
+		<div class="p-2">
+			<p> Cleaning</p>
+			<p> $60 </p>
+		</div>
+
+			  
+		  
+   
+	 	
+	 
+	  
+	  <!--modal start here -->
+	  
+	  
+	  
+	  <script>
+	  
+	  function changeTab(id,id2,id3,src_path) {
+		  
+		  var element = document.getElementById(id).className = "lblpopuptabactive";
+		  var element = document.getElementById(id2).className = "lblpopuptab";
+		  var element = document.getElementById(id3).className = "lblpopuptab";
+		  
+		  var element = document.getElementById("imgCleaningTypes").src = src_path;
+
+
+	  }
+		  
+	  </script>
+	  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+	
+  </body>
+</html>

@@ -1,0 +1,384 @@
+.nav-linkk {
+	
+  color: red;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.btn-vendors {
+	
+  box-sizing: border-box;
+  height: 50px;
+  width: 120px;
+  border: 1px solid #FE7860;
+  border-radius: 12px;
+ color:#FE7860;
+	margin-right:10px;
+}
+
+.btn-login {
+	
+ height: 50px;
+  width: 120px;
+  border-radius: 12px;
+  background-color: #FE7860;
+	color:white;
+}
+
+.lblmenuitem {
+	
+	  color: #4A4A4A;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+	margin: 0px 8px 0px 8px;
+}
+
+.total-onboard {
+	
+  color: #FE7860;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.total-onboard-passive {
+	
+  color: #969798;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 12px;
+  text-align: center;
+}
+
+.btn-booknow {
+	
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  background-color: #4EA584;
+	width: 95%;
+	height:45px;
+
+}
+
+.lbl-discount {
+	
+  transform: rotate(45deg);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25px;
+  text-align: center;
+  color:black;
+  background-color:#FE7860;
+	
+}
+
+.lblskipstep {
+	
+	 color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25px;
+  text-align: right;
+}
+
+.lbljoin {
+	
+  color: #4EA584;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+		
+}
+
+.lblcomingsoon {
+	
+  color: #B1A7A7;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+	
+}
+
+.btnoverimage {
+	
+	
+	  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btntags {
+	
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: -2.9px;
+  right: -4px;
+}
+
+.ribbon {
+  font: 600 16px Sans-Serif;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+-webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 6px 0;
+  left: -18px;
+  top: 30px;
+  width: 150px;
+  background-color: #FE7860;
+ 
+}
+
+/* 2.page */
+.lbltab-selected {
+	  color: #FE7860;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: center;
+	 border: 0.5px solid #C7C8C9;
+ 	 background-color: #FBEFEE;
+	box-sizing: border-box;
+	width: 100%;
+	height:90px;
+	line-height: 90px;
+	 border-bottom: 4px solid #4EA584;
+
+}
+
+.lbltab-disabled {
+		box-sizing: border-box;
+
+	color: #FBD9D3;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: center;
+  border: 0.5px solid #C7C8C9;
+  opacity: 0.52;
+  background-color: #FBEFEE;
+	line-height: 90px;
+	width: 100%;
+}
+
+.lbltab {
+	
+	 color: #C7C8C9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: center;
+width: 100%;
+	height:90px;
+	line-height: 90px;
+	  border: 0.5px solid #C7C8C9;
+}
+
+.price-orange {
+	
+	  color: #FE836B;
+  font-family: Poppins;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 55px;
+  text-align: center;
+	
+}
+
+.btninfo {
+	
+
+	line-height: 10px;
+    float: right;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    border: 2px solid;
+    font-weight: bold;
+	float:right;
+
+}
+
+.btnbasic {
+	
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+	  border: 0.5px solid #B1B2B3;
+  background-color: #FBFCFD;
+	
+}
+
+.tctgeneral {
+	
+	border: 0.5px solid #B1B2B3;
+  background-color: #FBFCFD;
+	resize: none;
+	overflow: auto;
+	width: 100%;
+}
+
+.btnback {
+	
+	  color: #4EA584;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+	  width: 297px;
+  border: 1px solid #4EA584;
+	width: 250px;
+	background: white;
+	padding: 10px;
+
+	
+}
+
+.btnnext {
+	
+	
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+	background-color: #4EA585;
+	width:250px;
+	padding: 10px;
+
+	
+}
+
+.lblpopuptabactive {
+	
+ color: #FE7860;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+	  border-bottom: 1px solid #FE7860;
+	    padding: 0px 15px 0px 15px;
+cursor:pointer;
+	margin-left: 8px;
+}
+
+.lblpopuptab {
+	
+	  color: #C7C8C9;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+	    padding: 0px 15px 0px 15px;
+cursor:pointer;
+	margin-left: 8px;
+
+	
+}
+
+
+.scheduleBox {
+	
+	
+	  border: 0.5px solid #B1B2B3;
+  background-color: #FBFCFD;
+	  color: #828384;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+	padding: 15px;
+	margin-right: -5px;
+}
+
+
+.scheduleBoxActive {
+	
+	
+	  border: 0.5px solid #B1B2B3;
+  background-color: #FE7860;
+	  color: white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+	padding: 15px;
+	margin-right: -5px;
+}
+
+
+.lblschedule-title {
+	
+font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 55px;
+	
+	
+}
+
+
+	
+	
+
+
