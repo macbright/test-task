@@ -69,55 +69,55 @@
 		  </div>
 		  
 		</div>
-		<div class="py-2 px-4 clearfix">
-			<p class="float-left cleaning"> Cleaning</p>
-			<p class="float-right amount"> $60 </p>
-			<div class=""></div>
-		</div>
-		<div class="container mt-5">
-			<div>
-				<h2>Providers</h2> 
-				<div >
-					<label for="providers" class=" util1 ">Choose from the following list of handpicked and vetted cleaning 
-						providers available for your desired timeslot:</label>
-					<select name="providers" id="providers" class="p-2 pr-5 util1 float-right">
-						<option value="most recommended">Most Recommended</option>
-						<option value="lowest pricing">Lowest Pricing</option>
-						<option value="highest rating">Highest Rating</option>
-						<option value="view all">View All</option>
-					</select>
+		
+		<div class="">
+			<div class="rov">
+				<div class="col-md-7">
+					<p class=" cleaning"> Cleaning</p>
+					<div class="form-div">
+						<h2>You're almost done!</h2>
+						<p>Enter your contact and  payment info so we can finalize your booking</p>
+						<form action="">
+
+							<label for="name">Full name</label><br>
+							<input type="text" id="name" name="name" value=""><br>
+							<label for="email">Email Address</label><br>
+							<input type="text" id="email" name="email" value=""><br>
+							<label for="number">Phone Number</label><br>
+							<input type="text" id="number" name="number" value=""><br>
+							<label for="password">Password</label><br>
+							<input type="text" id="password" name="password" value=""><br>
+							<label for="card-num">Credit Card Number</label>
+							<div> 
+								<img src="img/visa.png"  alt="">
+								<img src="img/master-card.png"  alt="">
+								<img src="img/discover.png"  alt="">
+							</div>
+							<br>
+							<input type="text" id="card-num" name="card-num" value=""><br>
+							<div>
+								<div>
+									<label for="card-date">Expiry Date</label><br>
+									<input type="text" id="fname" name="card-date" value=""><br>
+								</div>
+								<div>
+									<label for="cvv">CVV</label><br>
+									<input type="text" id="fname" name="cvv" value=""><br>
+								</div>
+							</div><br>
+							<label for="address">Address</label><br>
+							<input type="text" id="fname" name="address" value=""><br>
+
+							
+						</form>
+					</div>
 				</div>
+				<div class="col-md-5"></div>
 			</div>
-			<div class="container mt-5 img-width">
-				
-				<div class="row ">
-					<div class="col-md-4 my-3" id="provider1" onClick="activateNext()">
-						<p class="color-yes"> most affordable</p>
-						<img src="img/1.png" width="100%"  class="" alt="">
-					</div>
-					<div class="col-md-4 my-3">
-						<p class="no-color"> most affordable</p>
-						<img src="img/2.png" width="100%"  class="" alt="">
-					</div>
-					<div class="col-md-4 my-3">
-						<p class="no-color"> most affordable</p>
-						<img src="img/3.png" width="100%"  class="" alt="">
-					</div>
-				</div>
-				
-				<div class="accept">
-					<div class="mb-2">
-						<input type="checkbox" id="accept" name="accept" value="accept">
-  					<label for="vehicle1"> Choose the same provider for all reccurences </label><br>
-					</div>
-					<div class=" button-div">
-						<button class=" back " type="button" >Back</button>
-						<button class=" next" type="button" id="next" disabled >Next</button> 
-					</div>
-				</div>
-			</div>
-			
 		</div>
+
+		
+		
 
 			  
 		  
@@ -142,11 +142,6 @@
 
 	  }
 
-		function activateNext(){
-			let el = document.getElementById("next")
-			el.disabled = false
-			console.log(el)
-		}
 		
 		  
 	  </script>

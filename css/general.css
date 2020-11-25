@@ -376,9 +376,86 @@ font-family: Poppins;
 	
 	
 }
+.cleaning{
+	color: #59626E;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
 
+.amount{
+	color: #FE836B;
+  font-family: Poppins;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 35px;
+}
+.util1{
+	color: #A0A1A2;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+}	
+.img-width{
+	width: 84%;
+}
+.no-color{
+	color: white;
+}
+.color-yes{
+	color: #4EA584;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+	text-align: center;
+}
 
-	
-	
-
-
+.back{
+	height: 50px;
+  width: 297px;
+  border: 1px solid #177F52;
+	font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+	color: #4EA584;
+  font-family: "Open Sans";
+	border-radius: none;
+}
+.next{
+	height: 50px;
+  width: 297px;
+  border: 1px solid #fff;
+	background-color: #C9E4DA;
+	color: #fff;
+  font-family: "Open Sans";
+	border-radius: none;
+	margin-left: 12px;
+}
+.button-div{
+	display: flex;
+  justify-content: center;
+	margin-bottom: 100px;
+	align-content: center;
+}
+.accept{
+	margin-top: 40px;
+	text-align: center;
+}
+#provider1:active{
+	box-shadow: #C9E4DA;
+	border: 1px solid #177F52;
+	cursor: pointer;
+}
+.form-div{
+	padding-left: 80px;
+	padding-top: 20px;
+}
+.form-div form input{
+	height: 40px;
+  width: 378px;
+	margin-bottom: 18px;
+	margin-top: 0;
+	padding: 0;
+}
