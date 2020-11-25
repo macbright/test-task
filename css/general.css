@@ -1,3 +1,7 @@
+body{
+	box-sizing: border-box;
+	overflow-x:hidden;
+}
 .nav-linkk {
 	
   color: red;
@@ -455,7 +459,139 @@ font-family: Poppins;
 .form-div form input{
 	height: 40px;
   width: 378px;
-	margin-bottom: 18px;
-	margin-top: 0;
+	margin-bottom: 20px;
+	border: 0.2px solid #B1B2B3;
+  background-color: #FBFCFD;
+	 box-shadow: 1px 1px #FBFCFD;
+}
+
+.form-div form {
+	width: 378px;
+}
+.form-div form img{
+	height: 20px;
+}
+#card-date{
+	width: 180px;
+}
+#cvv{
+	width: 140px;
+}
+.form-div form label {
+	color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.faint-color, span{
+	color: #B1B2B3 !important;
+	font-size: 12px !important;
+}
+#fname{
+	margin-bottom: 0;
+}
+
+.form-div form .tips {
+	display: inline-flex;
+	justify-content: center;
+
+}
+.form-div form p {
+	border: 0.2px solid #B1B2B3;
+  background-color: #FBFCFD;
+	box-shadow: 1px 1px #FBFCFD;
+	height: 40px;
+	width: 95px;
+	text-align: center;
+	padding-top: 5px;
+}
+.agree input{
+	width: 12px !important;
+	height: 12px !important;
+	margin-right: 10px !important;
+}
+.right-checkout img{
+	width: 125px;
+	height: 125px;
+}
+
+.right-checkout-head{
+	color: #177F52;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+.right-side h6 {
+	color: #000000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+	padding-bottom: 30px;
+}
+.right-side p {
+	color: #000000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 5px;
 	padding: 0;
+}
+.buttom-border1{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #C7C8C9;
+}
+
+.colored-output p{
+	color: #177F52;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+.colored-output span {
+	height: 18px !important;
+  width: 18px !important;
+	border-radius: 100px;
+	font-size: 18px !important;
+	background-color: #4EA584;
+	padding-left: 6px !important;
+	padding: 2px;
+	margin-right: 8px;
+	align-content: center;
+	opacity: 0.8;
+	color: #fff !important;
+}
+.plain-output{
+	padding-left: 35px;
+}
+.side-bar-w{
+	background-color: #FBFCFD;
+  box-shadow: -1px 3px 10px 0 rgba(0,0,0,0.08)
+}
+.bottom-booking{
+	text-align: center;
+}
+.bottom-booking p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #828384;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.bottom-booking button {
+	height: 50px;
+  width: 300px;
+	color: #fff;
+	background-color: #C9E4DA;
+	font-family: "Open Sans";
+  font-size: 18px;
+	border: none;
 }

@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kafu Hi-Fi - Play </title>
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -50,7 +51,7 @@
 </nav>
    
 	  
-	<div class="row">
+	<div class="row overflow-div">
 	
 		  <div class="col-sm-3" style="padding:0px">
 		  <label class="lbltab">Cleaning Details</label>
@@ -61,18 +62,18 @@
 		  </div>
 		  
 		  <div class="col-sm-3"  style="padding:0px">
-		  <label class="lbltab-selected">Providers</label>
+		  <label class="lbltab">Providers</label>
 		  </div>
 		  
 		  <div class="col-sm-3"  style="padding:0px">
-		  <label class="lbltab">Checkout</label>
+		  <label class="lbltab-selected">Checkout</label>
 		  </div>
 		  
 		</div>
 		
-		<div class="">
-			<div class="rov">
-				<div class="col-md-7">
+		<div >
+			<div class="row ">
+				<div class="col-md-8 px-5">
 					<p class=" cleaning"> Cleaning</p>
 					<div class="form-div">
 						<h2>You're almost done!</h2>
@@ -88,7 +89,7 @@
 							<label for="password">Password</label><br>
 							<input type="text" id="password" name="password" value=""><br>
 							<label for="card-num">Credit Card Number</label>
-							<div> 
+							<div class="float-right"> 
 								<img src="img/visa.png"  alt="">
 								<img src="img/master-card.png"  alt="">
 								<img src="img/discover.png"  alt="">
@@ -96,23 +97,124 @@
 							<br>
 							<input type="text" id="card-num" name="card-num" value=""><br>
 							<div>
-								<div>
+								<div class="float-left">
 									<label for="card-date">Expiry Date</label><br>
-									<input type="text" id="fname" name="card-date" value=""><br>
+									<input type="text" id="card-date" name="card-date" value=""><br>
 								</div>
-								<div>
+								<div class="float-right">
 									<label for="cvv">CVV</label><br>
-									<input type="text" id="fname" name="cvv" value=""><br>
+									<input type="text" id="cvv" name="cvv" value=""><br>
 								</div>
 							</div><br>
+							<div class="clearfix"></div>
 							<label for="address">Address</label><br>
 							<input type="text" id="fname" name="address" value=""><br>
+							<span > 100% secure payments</span><br>
+							<div class="mt-3">
+							<label for="address" class="float-left">Add Tip</label>
+							<label for="address" class="float-right faint-color ">Optional</label><br>
+							</div>
+							<div class="clearfix"></div>
+							<div class="tips">
+								<p>$5.00</p>
+								<p>$10.00</p>
+								<p>$15.00</p>
+								<p>$20.00</p>
+							</div>
+							<div class="clearfix"></div>
+							<div class="mb-5 agree">
+								<input type="checkbox" id="save" name="save" value="save">
+  							<label for="save"> Securely save my details for future use </label><br>
+								<input type="checkbox" id="accept" name="accept" value="accept">
+  							<label for="vehicle1"> I agree to Kafu term of services and Privacy policy </label><br>
+							</div>
 
-							
 						</form>
 					</div>
 				</div>
-				<div class="col-md-5"></div>
+
+				<div class="col-md-4 side-bar-w px-5">
+					<div class="buttom-border1 ">
+						<div class="float-right mb-3">
+							<h3 class="right-checkout-head">You are saving $70</h3>
+						</div>
+						<div class="clearfix"></div>
+						<div >
+							<div class="float-right mt-4 right-checkout">
+								<img src="img/building_1003.PNG" alt="">
+							</div>
+							<div class="float-left right-side">
+								<H6> Your Cleaning Quote</H6>
+								<p>Panorama Tower</p>
+								<p>Apartment 1003</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="buttom-border1 pt-3">
+						<div class="clearfix plain-output">
+							<p class="float-left"> Standard Cleaning</p>
+							<p class="float-right"> $75.00</p>
+						</div>
+						<div class="clearfix colored-output">
+							<p class="float-left"> <span> % </span> Discount</p>
+							<p class="float-right"> -$30.00</p>
+							
+						</div>
+					</div>
+					<div class="buttom-border1 pt-1">
+						<div class="clearfix plain-output">
+							<p class="float-left"> Standard Cleaning Materials</p>
+							<p class="float-right"> $25.00</p>
+						</div>
+						<div class="clearfix plain-output">
+							<p class="float-left"> + Inside Cabinets</p>
+							<p class="float-right"> $15.00</p>
+						</div>
+						<div class="clearfix plain-output">
+							<p class="float-left"> +Inside Oven</p>
+							<p class="float-right"> $15.00</p>
+						</div>
+					</div>
+					<div class="buttom-border1 pt-1">
+						<div class="clearfix colored-output">
+							<p class="float-left"> <span> % </span> Schedule Discount</p>
+							<p class="float-right"> -$25.00</p>
+						</div>
+						<div class="clearfix plain-output">
+							<p class="float-left"> <strong>Fri, June 26</strong></p>
+							<p class="float-right"> $75.00</p>
+						</div>
+					</div>
+					<div class="buttom-border1 pt-1">
+						<div class="clearfix colored-output">
+							<p class="float-left"> <span> % </span> Recurrence Discount -20%</p>
+							<p class="float-right"> -$15.00</p>
+						</div>
+						<div class="clearfix plain-output">
+							<p class="float-left"> Subtotal</p>
+							<p class="float-right"> $60.00</p>
+						</div>
+					</div>
+					<div class="buttom-border1 pt-1">
+						<div class="clearfix plain-output">
+							<p class="float-left"> Taxes</p>
+							<p class="float-right"> $8.76</p>
+						</div>
+					</div>
+					<div class="buttom-border1 pt-1">
+						<div class="clearfix plain-output">
+							<h5 class="float-left"> <strong> Total</strong> </h5>
+							<h5 class="float-right">  <strong> $68.76</strong> </h5>
+						</div>
+					</div>
+					<div class="bottom-booking">
+						<p> We estimate your cleaning to take around 3 hours</p>
+						<button> Book My Cleaning</button><br>
+						<span>Promo Code?</span>
+
+					</div>
+				</div>
 			</div>
 		</div>
 

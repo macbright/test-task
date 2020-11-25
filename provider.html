@@ -112,7 +112,9 @@
 					</div>
 					<div class=" button-div">
 						<button class=" back " type="button" >Back</button>
-						<button class=" next" type="button" id="next" disabled >Next</button> 
+						<button class=" next" type="button" id="next" disabled 
+						onclick="location.href='/checkout.html'">
+						Next</button> 
 					</div>
 				</div>
 			</div>
@@ -145,9 +147,12 @@
 		function activateNext(){
 			let el = document.getElementById("next")
 			el.disabled = false
-			console.log(el)
 		}
 		
+		function loadCheckout(){
+			let el = document.getElementById("next")
+			el.disabled = false
+		}
 		  
 	  </script>
 	  
