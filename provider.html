@@ -68,58 +68,220 @@
 		  <label class="lbltab">Checkout</label>
 		  </div>
 		  
-		</div>
-		<div class="py-2 px-4 clearfix">
-			<p class="float-left cleaning"> Cleaning</p>
-			<p class="float-right amount"> $60 </p>
-			<div class=""></div>
-		</div>
-		<div class="container mt-5">
-			<div>
-				<h2>Providers</h2> 
-				<div >
-					<label for="providers" class=" util1 ">Choose from the following list of handpicked and vetted cleaning 
-						providers available for your desired timeslot:</label>
-					<select name="providers" id="providers" class="p-2 pr-5 util1 float-right">
-						<option value="most recommended">Most Recommended</option>
-						<option value="lowest pricing">Lowest Pricing</option>
-						<option value="highest rating">Highest Rating</option>
-						<option value="view all">View All</option>
-					</select>
-				</div>
+	</div>
+	<div class="py-2 px-4 clearfix">
+		<p class="float-left cleaning"> Cleaning</p>
+		<p class="float-right amount"> $60 </p>
+		<div class=""></div>
+	</div>
+	<div class="container mt-5">
+		<div>
+			<h2>Providers</h2> 
+			<div >
+				<label for="providers" class=" util1 ">Choose from the following list of handpicked and vetted cleaning 
+					providers available for your desired timeslot:</label>
+				<select name="providers" id="providers" class="p-2 pr-5 util1 float-right">
+					<option value="most recommended">Most Recommended</option>
+					<option value="lowest pricing">Lowest Pricing</option>
+					<option value="highest rating">Highest Rating</option>
+					<option value="view all">View All</option>
+				</select>
 			</div>
-			<div class="container mt-5 img-width">
+		</div>
+		<div class="container mt-5 img-width">
+			<p class="color-yes"> most affordable</p>
+			<div class="row ">
 				
-				<div class="row ">
-					<div class="col-md-4 my-3" id="provider1" onClick="activateNext()">
-						<p class="color-yes"> most affordable</p>
-						<img src="img/1.png" width="100%"  class="" alt="">
+				<div class="col-md-4 my-3" id="provider1" onClick="activateNext()">
+					
+					<div>
+						<img src="img/Rectangle.png" width="100%"  class="" alt="">
+						<div class="cleaning-div  ">
+							<p class="cleaning-head"> Star Cleaning</p>
+							<div class="star-div ">
+								<span> 4.5 </span>
+								<img src="img/star.png" alt="">
+								<span>(133)</span>
+							</div>
+							<p>$$ . Cleaner . 177 Bay Road</p>
+							<div class="row user-review">
+								<div class="col-md-3">
+									<img src="img/avatar.png" alt="">
+									<p>Lukas</p>
+								</div>
+								<div class="col-md-8">
+									<p>Best cleaners around. They make my life so much easier and more efficient</p>
+								</div>
+							</div>
+							<button data-toggle="modal" data-target="#profile"> Profile </button>
+						</div>
+						
 					</div>
-					<div class="col-md-4 my-3">
-						<p class="no-color"> most affordable</p>
-						<img src="img/2.png" width="100%"  class="" alt="">
-					</div>
-					<div class="col-md-4 my-3">
-						<p class="no-color"> most affordable</p>
-						<img src="img/3.png" width="100%"  class="" alt="">
-					</div>
+					
 				</div>
-				
-				<div class="accept">
-					<div class="mb-2">
-						<input type="checkbox" id="accept" name="accept" value="accept">
-  					<label for="vehicle1"> Choose the same provider for all reccurences </label><br>
+				<div class="col-md-4 my-3 " id="provider2">
+					
+					<div>
+						<img src="img/Rectangle2.png" width="100%"  class="" alt="">
+						<div class="cleaning-div">
+							<p class="cleaning-head"> Spotless Cleaning</p>
+							<div class="star-div ">
+								<span> 4.8 </span>
+								<img src="img/star.png" alt="">
+								<span>(255)</span>
+								<span class="float-right right-span"> +$5</span>
+							</div>
+							<p>$$ . Cleaner . 35 White Road</p>
+							<div class="row user-review">
+								<div class="col-md-3">
+									<img src="img/avatar.png" alt="">
+									<p>Rita</p>
+								</div>
+								<div class="col-md-8">
+									<p>Best cleaners service. i've come accross during my 5 years in the city ...</p>
+								</div>
+							</div>
+							<button> Profile </button>
+						</div>
 					</div>
-					<div class=" button-div">
-						<button class=" back " type="button" >Back</button>
-						<button class=" next" type="button" id="next" disabled 
-						onclick="location.href='/checkout.html'">
-						Next</button> 
+					
+				</div>
+				<div class="col-md-4 my-3" id="provider3">
+					<div>
+						<img src="img/Rectangle3.png" width="100%"  class="" alt="">
+						<div class="cleaning-div">
+							<p class="cleaning-head"> Exceeding Cleaning</p>
+							<div class="star-div ">
+								<span >  4.5 </span>
+								<img src="img/star.png" alt="">
+								<span>(133)</span>
+								<span class="float-right right-span"> +$10 </span>
+							</div>
+							<p>$$ . Cleaner . 10 Reel Road</p>
+							<div class="row user-review">
+								<div class="col-md-3">
+									<img src="img/avatar.png" alt="">
+									<p>Lisa</p>
+								</div>
+								<div class="col-md-8">
+									<p>Nothing is better than coming back to a clean home cleaned by these guys</p>
+								</div>
+							</div>
+							<button> Profile </button>
+						</div>				
 					</div>
+					
 				</div>
 			</div>
 			
+			<div class="accept">
+				<div class="mb-2">
+					<input type="checkbox" id="accept" name="accept" value="accept">
+					<label for="vehicle1"> Choose the same provider for all reccurences </label><br>
+				</div>
+				<div class=" button-div">
+					<button class=" back " type="button" >Back</button>
+					<button class=" next" type="button" id="next" disabled 
+					onclick="location.href='/checkout.html'">
+					Next</button> 
+				</div>
+			</div>
 		</div>
+		
+	</div>
+	<div class="modal" id="profile" tabindex="-1" role="dialog" >
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content" style="border-radius: 26px;background-color: #FFFFFF;box-shadow: 2px 2px 4px 0 rgba(173,173,173,0.5)">
+					<div class="modal-header" style="border:0px">
+						<h4 class="modal-title" style="font-size: 36px;font-weight: 500;width: 100%;padding-left: 17px;text-align: left">Spotless Cleaning</h4>
+					</div>
+					<div class="modal-body"  style="padding:35px" align="left">
+						<div class="row">
+							<div class="col-md-7 row">
+								<div class="col-md-7 ">
+									<img src="/img/Rectangle3.png"  width="100%" alt="">
+								</div>
+								
+								<div class="col-md-5 m-1, p-1">
+									<p> 941 NE 79th, Miami, FL 33138</p>
+									<p> $$ - Cleaner</p>
+								</div>
+								
+							</div>
+							<div class="col-md-4 ml-5">
+									<p><img src="img/11.png" width="30px" alt="">  License Verified</p>
+									<p> <img src="img/22.png"  width="30px" alt=""> Liability Insured</p>
+									<p> <img src="img/33.png" width="30px" class="mr-1" alt="">Background Checked</p>
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<h4 class="mt-4">Top Reviews</h4>
+								<div class="row user-review mb-5 m-1">
+									<div class="col-md-3">
+										<img src="img/avatar.png" alt="">
+										<p>Andrew</p>
+									</div>
+									<div class="col-md-8 m-1">
+										<p>My self-proclaimend Obsessive Compulsive Disorder
+											has never been more satisfied with a cleaner as much as it is satisfied with Spotless
+											cleaning. nothing beats coming back to a clean and spotless house, pun intended.
+										</p>
+									</div>
+								</div>
+								<div class="row user-review my-4">
+									<div class="col-md-3 m-1">
+										<img src="img/avatar.png" alt="">
+										<p>Max</p>
+									</div>
+									<div class="col-md-8 m-1">
+										<p>My self-proclaimend Obsessive Compulsive Disorder
+											has never been more satisfied with a cleaner as much as it is satisfied with Spotless
+											cleaning. nothing beats coming back to a clean and spotless house, pun intended.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 ">
+								<div class="star-div2 mt-4 float-right mb-2">
+									<span> 4.8 </span>
+									<img src="img/star.png" alt="">
+									<span>(133)</span>
+								</div>
+									<span class="clearfix"></span>
+								<div class="row user-review mb-5 ">
+									<div class="col-md-3 m-1">
+										<img src="img/avatar.png" alt="">
+										<p>Andrew</p>
+									</div>
+									<div class="col-md-8 m-1 ">
+										<p>My self-proclaimend Obsessive Compulsive Disorder
+											has never been more satisfied with a cleaner as much as it is satisfied with Spotless
+											cleaning. nothing beats coming back to a clean and spotless house, pun intended.
+										</p>
+									</div>
+								</div>
+								<div class="row user-review my-4">
+									<div class="col-md-3 m-1">
+										<img src="img/avatar.png" alt="">
+										<p>Max</p>
+									</div>
+									<div class="col-md-8 m-1">
+										<p>My self-proclaimend Obsessive Compulsive Disorder
+											has never been more satisfied with a cleaner as much as it is satisfied with Spotless
+											cleaning. nothing beats coming back to a clean and spotless house, pun intended.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+					</div>
+					
+				</div>
+    </div>
+  </div>
+
 
 			  
 		  
@@ -138,7 +300,6 @@
 		  var element = document.getElementById(id).className = "lblpopuptabactive";
 		  var element = document.getElementById(id2).className = "lblpopuptab";
 		  var element = document.getElementById(id3).className = "lblpopuptab";
-		  
 		  var element = document.getElementById("imgCleaningTypes").src = src_path;
 
 
@@ -146,13 +307,13 @@
 
 		function activateNext(){
 			let el = document.getElementById("next")
+			let el2 = document.getElementById("provider1")
+			el2.style.backgroundColor = "#ebebeb"
+			el.style.backgroundColor = "#00c67d"
 			el.disabled = false
 		}
 		
-		function loadCheckout(){
-			let el = document.getElementById("next")
-			el.disabled = false
-		}
+	
 		  
 	  </script>
 	  
